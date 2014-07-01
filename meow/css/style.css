@@ -1,0 +1,32 @@
+body {
+	line-height: 1;
+	color: black;
+	background: url('../images/gomatongue.gif');
+	font-family: "rosario", times;
+	font-size: 15px;
+
+}
+
+h1 {
+	font-family: "lobster", "times-new-roman" ;
+	font-size: 40px;
+	color: #2A044A;
+}
+
+h2 {
+	color: #2A044A;
+}
+
+.litter-box {
+	width: 650px;
+	height: 310px;
+	padding: 12px;
+	margin: auto; /*Using 'auto' will automatically center the container*/
+	background: rgba(233,78,119,0.75);
+	border-radius: 14px;
+}
+
+a {
+	color: #046d8b;
+	text-decoration: none;
+}
