@@ -30,3 +30,7 @@ a {
 	color: #046d8b;
 	text-decoration: none;
 }
+
+iframe {
+	margin: 0 auto;
+}
