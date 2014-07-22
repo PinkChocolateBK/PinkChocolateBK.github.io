@@ -1,0 +1,123 @@
+
+/*----------------------------------------------------------------------------- 
+01=BASE   
+-----------------------------------------------------------------------------*/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+.clear {
+	clear: both;
+}
+
+body {
+	background color: rgb(204,255,0); /*weird, not doing anyhting*/
+}
+
+
+
+
+/*----------------------------------------------------------------------------- 
+02=LAYOUT  
+-----------------------------------------------------------------------------*/
+#container {
+	background: url('../images/floor.jpg');
+	width: 1000px;
+	margin: auto;
+}
+
+#header {
+	font-family: 'Rock Salt', cursive;
+	padding: 10px;
+	margin-left: 50px;
+}
+
+#wrapper {
+	width: 880px;
+	margin: auto;
+	font-family: 'Lato', 'sans serif';
+}
+
+#main {
+	background: #F8F1E9;
+	font-size: 14px;
+	padding: 25px;
+	width: 570px;
+	margin-right: 10px;
+ 	float: left;
+}
+
+#footer {
+	margin-left: 60px;
+	font-family: 'Lato', 'sans serif';
+	font-size: 12px, bold;
+	padding-bottom: 1px;
+}
+
+#sidebar{
+	background: #F8F1E9;
+	font-size: 14px;
+	width: 300px;
+	float: left;
+	padding: 20px;
+	height: 760px;
+	box-shadow:  -5px 5px 0 0 #49423D;
+}
+
+
+/*----------------------------------------------------------------------------- 
+03=MAIN  
+-----------------------------------------------------------------------------*/
+
+h1{
+	font-size: 50px;
+}
+
+.dream{
+	margin-bottom: 0px;
+}
+
+.subtitle{
+	margin-top: 0px;
+}
+
+.resolution{
+	border-top: 1px solid #A8A39D;
+	padding-top: 10px;
+	color: #A8A39D;
+}
+
+.quote{
+	border-left: 1px solid #A8A39D;
+	border-width: thick;
+	padding: 10px;
+}
+
+.rawk{
+	padding: 0px;
+	border-radius: 100px;
+	}
+
+
+.ru{
+	border-radius: 20px;
+}
+
+.align-center{
+	display: block;
+	margin: 0px auto;
+}
+
+.link{
+	color: #B70707;
+	text-decoration: none;
+}
+
+
+
+
+
